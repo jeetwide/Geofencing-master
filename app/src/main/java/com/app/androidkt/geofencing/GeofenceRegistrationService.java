@@ -39,7 +39,7 @@ public class GeofenceRegistrationService extends IntentService {
                 String CHANNEL_ID = Constants.GEOFENCE_ID_Titanium;
                 NotificationCompat.Builder builder =
                         new NotificationCompat.Builder(this)
-                                .setSmallIcon(R.drawable.titanium)
+                                .setSmallIcon(R.drawable.ic_stat_schedule)
                                 .setContentTitle("You entered Titanium City Center")
                                 .setContentText("Please connect to the office. ");
 
